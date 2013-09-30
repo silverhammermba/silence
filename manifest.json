@@ -1,0 +1,18 @@
+{
+	"manifest_version": 2,
+
+	"name": "Blissful Silence",
+	"description": "Remove all traces of comments/shares/+1s/likes from certain websites.",
+	"version": "1.0",
+
+	"content_scripts": [
+		{"matches": ["http://www.youtube.com/*"],          "js": ["silencer.js", "yt.js"]},
+		{"matches": ["http://www.rockpapershotgun.com/*"], "js": ["silencer.js", "rps.js"]},
+		{"matches": ["http://*.deviantart.com/*"],         "js": ["silencer.js", "da.js"]},
+		{"matches": ["http://www.npr.org/*"],              "js": ["silencer.js", "npr.js"]},
+		{"matches": ["http://www.thedailyshow.com/*"],     "js": ["silencer.js", "dailyshow.js"]},
+		{"matches": ["http://www.reddit.com/*"],           "js": ["silencer.js", "reddit.js"]},
+		{"matches": ["https://www.facebook.com/*"],        "js": ["silencer.js", "fb.js"]},
+		{"matches": ["https://plus.google.com/*"],         "js": ["silencer.js", "gp.js"]}
+	]
+}
