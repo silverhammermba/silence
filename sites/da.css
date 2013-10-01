@@ -1,0 +1,7 @@
+.dev-page-below-tabs,
+.tower-commentcontrol,
+.comments-footer-container,
+.dev-metainfo-stats,
+#comments, /* TODO remove dit button for comment widget */
+.commentcount
+{ display: none !important; }

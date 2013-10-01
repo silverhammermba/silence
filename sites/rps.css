@@ -1,0 +1,5 @@
+#comments,
+.comments,
+.respond,
+.dd_post_share /* can't select just share counts, so remove fb/reddit entirely */
+{ display: none !important; }

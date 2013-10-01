@@ -7,12 +7,12 @@
 
 	"content_scripts": [
 		{"matches": ["http://www.youtube.com/*"],          "css": ["sites/yt.css"]},
-		{"matches": ["http://www.rockpapershotgun.com/*"], "js": ["silencer.js", "sites/rps.js"]},
-		{"matches": ["http://*.deviantart.com/*"],         "js": ["silencer.js", "sites/da.js"]},
-		{"matches": ["http://www.npr.org/*"],              "js": ["silencer.js", "sites/npr.js"]},
-		{"matches": ["http://www.thedailyshow.com/*"],     "js": ["silencer.js", "sites/dailyshow.js"]},
-		{"matches": ["http://www.reddit.com/*"],           "js": ["silencer.js", "sites/reddit.js"]},
-		{"matches": ["https://www.facebook.com/*"],        "js": ["silencer.js", "sites/fb.js"]},
-		{"matches": ["https://plus.google.com/*"],         "js": ["silencer.js", "sites/gp.js"]}
+		{"matches": ["http://www.rockpapershotgun.com/*"], "css": ["sites/rps.css"]},
+		{"matches": ["http://*.deviantart.com/*"],         "css": ["sites/da.css"]},
+		{"matches": ["http://www.npr.org/*"],              "css": ["sites/npr.css"]},
+		{"matches": ["http://www.thedailyshow.com/*"],     "css": ["sites/dailyshow.css"]},
+		{"matches": ["http://www.reddit.com/*"],           "css": ["sites/reddit.css"]},
+		{"matches": ["https://www.facebook.com/*"],        "css": ["sites/fb.css"]},
+		{"matches": ["https://plus.google.com/*"],         "css": ["sites/gp.css"]}
 	]
 }

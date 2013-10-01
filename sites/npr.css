@@ -1,0 +1,4 @@
+#commentBlock,
+.comment,
+.comments
+{ display: none !important; }

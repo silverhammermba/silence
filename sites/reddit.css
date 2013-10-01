@@ -1,0 +1,8 @@
+.first,
+.commentarea,
+.score,
+.upvotes,
+.downvotes,
+.number,
+.users-online
+{ display: none !important; }
