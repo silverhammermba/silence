@@ -6,7 +6,7 @@
 	"version": "1.0",
 
 	"content_scripts": [
-		{"matches": ["http://www.youtube.com/*"],          "js": ["silencer.js", "sites/yt.js"]},
+		{"matches": ["http://www.youtube.com/*"],          "css": ["sites/yt.css"]},
 		{"matches": ["http://www.rockpapershotgun.com/*"], "js": ["silencer.js", "sites/rps.js"]},
 		{"matches": ["http://*.deviantart.com/*"],         "js": ["silencer.js", "sites/da.js"]},
 		{"matches": ["http://www.npr.org/*"],              "js": ["silencer.js", "sites/npr.js"]},

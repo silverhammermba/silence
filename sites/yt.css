@@ -1,0 +1,7 @@
+#watch-discussion,
+#watch7-sentiment-actions,
+#watch7-views-info,
+.yt-subscription-button-subscriber-count-branded-horizontal,
+.view-count,
+.yt-lockup-meta-info li:nth-child(2)
+{ display: none !important; }
