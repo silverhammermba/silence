@@ -6,7 +6,7 @@
 	"version": "1.0",
 
 	"content_scripts": [
-		{"matches": ["http://www.youtube.com/*"],          "css": ["sites/yt.css"]},
+		{"matches": ["*://www.youtube.com/*"],             "css": ["sites/yt.css"]},
 		{"matches": ["http://www.rockpapershotgun.com/*"], "css": ["sites/rps.css"]},
 		{"matches": ["http://*.deviantart.com/*"],         "css": ["sites/da.css"]},
 		{"matches": ["http://www.npr.org/*"],              "css": ["sites/npr.css"]},
