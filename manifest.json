@@ -6,11 +6,11 @@
 	"version": "1.0",
 
 	"content_scripts": [
-		{"matches": ["http://www.youtube.com/*"],          "css": ["sites/yt.css"]},
+		{"matches": ["*://www.youtube.com/*"],             "css": ["sites/yt.css"]},
 		{"matches": ["http://www.rockpapershotgun.com/*"], "css": ["sites/rps.css"]},
 		{"matches": ["http://*.deviantart.com/*"],         "css": ["sites/da.css"]},
 		{"matches": ["http://www.npr.org/*"],              "css": ["sites/npr.css"]},
-		{"matches": ["http://www.thedailyshow.com/*"],     "css": ["sites/dailyshow.css"]},
+		{"matches": ["http://thedailyshow.cc.com/*"],      "css": ["sites/dailyshow.css"]},
 		{"matches": ["http://www.reddit.com/*"],           "css": ["sites/reddit.css"]},
 		{"matches": ["https://www.facebook.com/*"],        "css": ["sites/fb.css"]},
 		{"matches": ["https://plus.google.com/*"],         "css": ["sites/gp.css"]}
