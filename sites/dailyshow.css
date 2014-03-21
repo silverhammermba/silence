@@ -1,6 +1,2 @@
 .comments,
-.sm4-comment-count,
-.airDate + li,
-.serviceList, /* TODO try to just remove share counts */
-.comments_btn
 { display: none !important; }
