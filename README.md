@@ -30,7 +30,7 @@ different?
 4. This extension is [open source][4]. That means you can help to improve it and
    I can't be an asshole and sneak in spyware.
 
-## Techincal Details ##
+## Technical Details ##
 
 As far as I know, there is no silver bullet for comment removal. This script
 uses a bunch of site-specific CSS rules to hide unwanted content. If a site you
