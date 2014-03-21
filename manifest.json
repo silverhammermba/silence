@@ -13,6 +13,7 @@
 		{"matches": ["http://thedailyshow.cc.com/*"],      "css": ["sites/dailyshow.css"]},
 		{"matches": ["http://www.reddit.com/*"],           "css": ["sites/reddit.css"]},
 		{"matches": ["https://www.facebook.com/*"],        "css": ["sites/fb.css"]},
-		{"matches": ["https://plus.google.com/*"],         "css": ["sites/gp.css"]}
+		{"matches": ["https://plus.google.com/*"],         "css": ["sites/gp.css"]},
+		{"matches": ["http://www.vice.com/*"],             "css": ["sites/vice.css"]}
 	]
 }
