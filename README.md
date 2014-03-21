@@ -1,7 +1,7 @@
 # Blissful Silence #
 
 The "Web 2.0" movement is all about user-generated content. That's great.
-Unfortunately when it comes user-generated _comments_, the result is usually
+Unfortunately when it comes to user-generated _comments_, the result is usually
 asinine, ignorant, racist, cynical, depressing, spam, or generally infuriating.
 If you're like me and you [can't look away][1], this extension can be a
 blessing.
@@ -25,17 +25,22 @@ different?
 2. Likes, +1s, and other popularity measures can also be distracting. Who cares
    if millions of people hate a Youtube video that you like? This extension
    attempts to remove all such distractions.
+3. Where possible, I have tried to avoid blocking your option to comment, share,
+   like, etc.
+4. This extension is [open source][4]. That means you can help to improve it and
+   I can't be an asshole and sneak in spyware.
 
 ## Techincal Details ##
 
-As far as I know, there is no silver bullet for comment removal. Thus this
-script uses a bunch of site-specific CSS rules to hide unwanted content. If a
-site you visit is unaffected by this extension, you can [let me know][2] and
-I'll see what I can do. [Contributions][3] are also welcome.
+As far as I know, there is no silver bullet for comment removal. This script
+uses a bunch of site-specific CSS rules to hide unwanted content. If a site you
+visit is unaffected by this extension, you can [let me know][2] and I'll see
+what I can do. [Contributions][3] are also welcome.
 
 Some sites (such as Facebook) do not provide a way to easily single out content
-for removal, so not all content will be blocked.
+for removal, so not all content can be blocked.
 
 [1]: https://xkcd.com/386/
 [2]: https://github.com/silverhammermba/silence/issues
 [3]: https://github.com/silverhammermba/silence/compare/
+[4]: https://github.com/silverhammermba/silence
