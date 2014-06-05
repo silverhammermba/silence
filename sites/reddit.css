@@ -3,5 +3,6 @@
 .upvotes,
 .downvotes,
 .number,
-.users-online
+.users-online,
+.tagline > span:first-child
 { display: none !important; }
